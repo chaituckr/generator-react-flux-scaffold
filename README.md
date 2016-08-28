@@ -13,7 +13,13 @@ npm install -g generator-react-flux-scaffold
 Then generate your new project:
 
 ```bash
-yo react-scaffold
+yo react-flux-scaffold
+```
+
+Then start your project:
+
+```bash
+gulp
 ```
 
 ## Getting To Know Yeoman

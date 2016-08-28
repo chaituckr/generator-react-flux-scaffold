@@ -1,19 +1,23 @@
 {
   "name": "generator-react-flux-scaffold",
-  "version": "0.0.0",
-  "description": "This Generator gives you the scaffolding for your React-Flux WebApp.",
+  "version": "0.0.5",
+  "description": "This will help you to kick start your React-flux web application.",
   "homepage": "/",
   "author": {
     "name": "Chaitanya",
     "email": "tckr.1990@gmail.com",
-    "url": ""
+    "url": "https://github.com/chaituckr/generator-react-flux-scaffold"
   },
   "files": [
     "generators"
   ],
   "main": "generators\\index.js",
   "keywords": [
-    "",
+    "react",
+    "flux",
+    "react-flux",
+    "react scaffolding",
+    "react folder structure",
     "yeoman-generator"
   ],
   "dependencies": {
@@ -41,7 +45,11 @@
       "mocha": true
     }
   },
-  "repository": "/generator-react-flux-scaffold",
+  "repository": {
+    "name":"/generator-react-flux-scaffold",
+    "type":"git",
+    "url":"https://github.com/chaituckr/generator-react-flux-scaffold.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

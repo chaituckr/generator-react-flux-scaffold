@@ -13,6 +13,10 @@
     "structure",
     "scaffolding"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaituckr/generator-react-flux-scaffold.git"
+  },
   "author": "Chaitanya Kumar Reddy",
   "license": "ISC",
   "dependencies": {

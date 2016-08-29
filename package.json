@@ -2,7 +2,7 @@
   "name": "generator-react-flux-scaffold",
   "version": "0.0.5",
   "description": "This will help you to kick start your React-flux web application.",
-  "homepage": "/",
+  "homepage": "https://github.com/chaituckr/generator-react-flux-scaffold",
   "author": {
     "name": "Chaitanya",
     "email": "tckr.1990@gmail.com",

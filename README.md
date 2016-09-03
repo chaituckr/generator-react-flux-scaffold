@@ -22,6 +22,33 @@ Then start your project:
 gulp
 ```
 
+## Folder Structure
+
+  * This generator gives you a folder structure as below:
+              
+            -- docs                               (To store the application docs if any)
+            -- src                                (Main Application Folder)
+                -- actions                        (All the action files)
+                -- components                     (All React Components)
+                    -- HomeComponent              (Folder for each component)
+                        -- home.css               (Css file for Home component)
+                        -- Home.js                (Component file)
+                        -- package.json           (this will have version of Component, this is different from Project package.json)
+                -- constants                      (all constants for our application)
+                -- dispatcher                     (Flux dispather that dispatches our actions)
+                -- images                         (images req for our app)
+                -- routes                         (This will have routes to our components, we are using "react-router")
+                -- services                       (Here we can do ajax/service calls)
+                -- stores                         (Flux stores for our app)
+                -- utils                          (Anything else like properties files)
+                -- index.html                     (Only HTML page for our app)
+                -- main.js                        (starting point of our app)
+            -- .bablerc
+            -- .gitignore
+            -- gulpfile.js
+            -- package.json
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.

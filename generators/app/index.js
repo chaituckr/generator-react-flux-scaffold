@@ -73,8 +73,12 @@ module.exports = yeoman.Base.extend({
       this.destinationPath('src/constants/Constants.js')
     );
     this.fs.copy(
-      this.templatePath('src/Dispatcher/AppDispatcher.js'),
-      this.destinationPath('src/Dispatcher/AppDispatcher.js')
+      this.templatePath('src/dispatcher/AppDispatcher.js'),
+      this.destinationPath('src/dispatcher/AppDispatcher.js')
+    );
+    this.fs.copy(
+      this.templatePath('src/images/folderstr.png'),
+      this.destinationPath('src/images/folderstr.png')
     );
     this.fs.copy(
       this.templatePath('src/images/react-logo.png'),

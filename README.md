@@ -1,5 +1,5 @@
 # generator-react-flux-scaffold [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> This Generator gives you the scaffolding for your React WebApp.
+> Scaffolding for project with react, fulx and glup.
 
 ## Installation
 
